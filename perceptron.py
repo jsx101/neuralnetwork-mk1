@@ -1,3 +1,5 @@
+#From tutorial video: https://www.youtube.com/watch?v=kft1AJ9WVDk&ab_channel=Polycode
+
 import numpy as np
 
 def sigmoid(x):
