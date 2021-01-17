@@ -17,11 +17,7 @@ training_inputs = np.array(
     ]
 )
 
-training_outputs = np.array(
-    [
-        [0,1,1,0]
-    ]
-).T #transposes it to become a 4 by 1 matrix
+training_outputs = np.array([[0,1,1,0]]).T #transposes it to become a 4 by 1 matrix
 
 #assigning random values as weights but to ensure those random values are the same every time
 np.random.seed(1)
